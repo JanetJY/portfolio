@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "brolimo-bold"; 
-    src: url("../fonts/brolimo/woff2/brolimo-brolimo-bold-700.woff2") format("woff2"), /* Modern browsers */
-         url("../fonts/brolimo/ttf/brolimo-brolimo-bold-700.ttf") format("ttf");   /* Fallback */
+    font-family: "brolimo-ultrabold"; 
+    src: url("../fonts/brolimo/woff2/brolimo-brolimo-ultrabold-800.woff2") format("woff2"), /* Modern browsers */
+         url("../fonts/brolimo/ttf/brolimo-brolimo-ultrabold-800.ttf") format("ttf");   /* Fallback */
 }
 
 body {
     background-color: #F2ECE2;
 }
 
-hr {
+nav hr {
     border: none;
     height: 1px;
     background-color: #7A4035;
@@ -18,4 +18,7 @@ hr {
 nav a {
     color: #7A4035;
     font-family: brolimo-bold;
+    font-size: 32px;
+    text-align: right;
+    margin: 0 130px;
 }
