@@ -1,9 +1,3 @@
-@font-face {
-    font-family: "brolimo-ultrabold"; 
-    src: url("../fonts/brolimo/woff2/brolimo-brolimo-ultrabold-800.woff2") format("woff2"), /* Modern browsers */
-         url("../fonts/brolimo/ttf/brolimo-brolimo-ultrabold-800.ttf") format("ttf");   /* Fallback */
-}
-
 body {
     background-color: #F2ECE2;
 }
