@@ -6,21 +6,69 @@
 
 body {
     background-color: #F2ECE2;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #7A4035;
+    font-family: brolimo-ultrabold;
+}
+
+.logo {
+    width: 15%;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.logo p {
+    font-size: 35px;
+}
+
+#firstName {
+    margin-top: auto;
+    margin-bottom: 5px;
+    margin-left: 35px;
+}
+
+#lastName {
+    margin-top: 0px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+nav {
+    width: 100%;
+    text-align: right;
+    margin-top: auto;
 }
 
 /*Navigation Horizontal Line*/
-nav hr {
+.navbar hr {
     border: none;
-    height: 1px;
+    height: 1.5px;
     background-color: #7A4035;
     margin: 10px 0;
 }
 
+.logo hr {
+    border: none;
+    height: 1.5px;
+    background-color: #7A4035;
+    margin: 10px 0;
+}
+
+.separator{
+    width: 1.5px; /* Thickness of the line */
+    height: auto; /* Length of the line */
+    background-color: #7A4035; /* Color of the line */
+    margin-bottom: 10px;
+}
+
 /*Anchors or Text in Navigation Area*/
 nav a {
-    color: #7A4035;
-    font-family: brolimo-ultrabold;
-    font-size: 32px;
-    text-align: right;
-    margin: 0 130px;
+    font-size: 25px;
+    margin: 0 80px;
 }
