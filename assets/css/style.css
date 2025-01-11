@@ -4,11 +4,30 @@
          url("../fonts/brolimo/ttf/brolimo-brolimo-ultrabold-800.ttf") format("ttf");   /* Fallback */
 }
 
+@font-face {
+    font-family: "brolimo-semibold"; 
+    src: url("../fonts/brolimo/woff2/brolimo-brolimo-semibold-600.woff2") format("woff2"), /* Modern browsers */
+         url("../fonts/brolimo/ttf/brolimo-brolimo-semibold-600.ttf") format("ttf");   /* Fallback */
+}
+
+@font-face {
+    font-family: "brolimo-heavy"; 
+    src: url("../fonts/brolimo/woff2/brolimo-brolimo-heavy-800.woff2") format("woff2"), /* Modern browsers */
+         url("../fonts/brolimo/ttf/brolimo-brolimo-heavy-800.ttf") format("ttf");   /* Fallback */
+}
+
+
+
+
+
 body {
     background-color: #F2ECE2;
     margin: 0;
 }
 
+
+
+/*____________Styles for Navigation and Logo ___________*/
 header {
     display: flex;
     flex-direction: row;
@@ -70,5 +89,47 @@ nav {
 /*Anchors or Text in Navigation Area*/
 nav a {
     font-size: 25px;
-    margin: 0 80px;
+    margin: 0 70px;
+}
+
+
+/*______________Styles for Intro Page______________*/
+.intro {
+    height: calc(100vh - 141px);
+    position: relative;
+}
+
+.background {
+    position: absolute; /* Place it behind the main content */
+    top: 15%;
+    left: 7%;
+    right: 0;
+    bottom: 0;
+    z-index: 1; /* Ensure it stays behind the content */
+}
+
+.main-content {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;       
+    height: 100%;
+    margin-top: -70px;
+    margin-right: -180px;
+    position: relative;
+    z-index: 2;
+}
+
+.intro p {
+    font-size: 60px;
+    color: #4E3C3C;
+    font-family: brolimo-semibold;
+    margin-left: 60px;
+}
+
+.intro img {
+    margin-right: 20px;
+}
+
+.intro .bold {
+    font-family: brolimo-heavy;
 }
