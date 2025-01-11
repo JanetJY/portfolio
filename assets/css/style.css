@@ -61,9 +61,9 @@ nav {
 }
 
 .separator{
-    width: 1.5px; /* Thickness of the line */
-    height: auto; /* Length of the line */
-    background-color: #7A4035; /* Color of the line */
+    width: 0; 
+    height: auto; 
+    border-left: 1.5px solid #7A4035;
     margin-bottom: 10px;
 }
 
